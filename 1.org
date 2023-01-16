@@ -1,0 +1,29 @@
+Задание 1. Сериализация
+
+1. Представьте данные таблицы Auths в формате json(используйте библиотеку Newtonsoft.Json)
+
+2. Представьте данные одной из таблиц индивидуального задания в формате json(используйте библиотеку Newtonsoft.Json)
+
+Код:
+
+1. Класс Auth
+
+   #+INCLUDE: ./ExampleJson/Auth.cs src csharp
+
+2. Окно MainWindow
+
+   1. MainWindow.xaml
+
+      #+INCLUDE: ./ExampleJson/MainWindow.xaml src xml
+
+   2. MainWindow.xaml.cs
+
+      #+INCLUDE: ./ExampleJson/MainWindow.xaml.cs src csharp
+
+Демонстрация работы приложения:
+
+[[file:images/1.jpg]]
+
+[[file:images/2.jpg]]
+
+
